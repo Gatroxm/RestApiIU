@@ -1,25 +1,83 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  useState,
+  cloneElement
+} from 'react'
 
-function App() {
+import {
+  Container,
+  Step,
+  Stepper,
+  StepLabel,
+  Box,
+  Grid
+} from '@mui/material'
+
+
+import Form1 from './components/Form1'
+import Form2 from './components/Form2'
+import TableData from './components/Table'
+
+const steps = [
+  {
+    label: 'Paso 1',
+    componente: <Form1 />
+  },
+  {
+    label: 'Paso 2',
+    componente: <Form2 />
+  }
+]
+
+const App = () => {
+  const [step, setStep] = useState(0)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <Container
+      fixed
+      style={{
+        padding: '3em'
+      }}
+    >
+      <Grid
+        container
+        spacing={6}
+      >
+        <Grid
+          item
+          sm={4}
+          xs={12}
         >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+          <Stepper
+            activeStep={step}
+          >
+            {steps.map((step, key) => (
+              <Step
+                key={key}
+              >
+                <StepLabel>
+                  {step.label}
+                </StepLabel>
+              </Step>
+            ))}
+          </Stepper>
+          <Box
+            style={{
+              marginTop: '4em'
+            }}
+          >
+            {steps[step].componente}
+          </Box>
+        </Grid>
+        <Grid
+          item
+          sm={8}
+          xs={12}
+        >
+          <TableData />
+        </Grid>
+      </Grid>
+    </Container>
+  )
 }
 
-export default App;
+export default App

@@ -5,7 +5,7 @@ import {
 
 import axios from 'axios'
 
-const useUSers = () => {
+const useUsers = () => {
   const [users, setUsers] = useState([])
 
   /** GET USERS */
@@ -28,4 +28,4 @@ const useUSers = () => {
   }
 }
 
-export default useUSers
+export default useUsers

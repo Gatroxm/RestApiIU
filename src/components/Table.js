@@ -8,10 +8,10 @@ import {
   Paper
 } from '@mui/material'
 
-import useUSers from '../hooks/useUsers'
+import useUsers from '../hooks/useUsers'
 
 const TableData = () => {
-  const { users } = useUSers()
+  const { users } = useUsers()
  
   return (
     <TableContainer

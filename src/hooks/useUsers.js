@@ -10,7 +10,7 @@ const useUSers = () => {
 
   /** GET USERS */
   useEffect(() => {
-    const getUSers = async () => {
+    const getUsers = async () => {
       try {
         const { data } = await axios.get(process.env.REACT_APP_USERS_URL)
 
@@ -20,7 +20,7 @@ const useUSers = () => {
       }
     }
 
-    getUSers()
+    getUsers()
   }, [])
 
   return {

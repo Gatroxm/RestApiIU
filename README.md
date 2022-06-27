@@ -26,11 +26,11 @@
   ### 2.-
   La edición del usuario esta sujeta a la experiencia que el candidato le pueda dar, siendo que se haga en el propio formulario o usando cualquier otra experiencia de usuario como puede ser un modal, una nueva página, etc...
   ### 3.-
-  Indicadores, al ser un desarrollo front end en todo momento se debe indicar al usuario el estado de sus acciones es decir, si se consume un API mostrar un loader para indicar que se esta haciendo algo, si es correcto la petición hacia el API mostrar una alerta indicando que la operación ha sido satisfactoria, si en la petición el API ha sufrido un error se debe indicar un alerta de error mucho mejor si se indica el error dado.
+  Indicadores, al ser un desarrollo front end en todo momento se debe indicar al usuario el estado de sus acciones es decir, si se consume un API mostrar un loader para indicar que se esta haciendo algo, si es correcto la petición hacia la API mostrar una alerta indicando que la operación ha sido satisfactoria, si en la petición la API ha sufrido un error se debe indicar un alerta de error mucho mejor si se indica el error dado.
   ### 4.-
   Validación de los campos de entrada del formulario se dará mucho valor buenas prácticas de validación de datos, caracteres no válidos, espacios en blanco, campos que solo admitan números, validación del formato del correo, etc...
   ### 5.-
-  Se adjunta la colección de API para que el candidato pueda explorar el API de usuarios mediante https://www.postman.com/ aplicación que la pueden usar gratuitamente, aquí se puede ver un video de como importar el entorno y la colección del API https://www.youtube.com/watch?v=cjwM9EDkIks:
+  Se adjunta la colección de API para que el candidato pueda explorar la API de usuarios mediante https://www.postman.com/ aplicación que la pueden usar gratuitamente, aquí se puede ver un video de como importar el entorno y la colección del API https://www.youtube.com/watch?v=cjwM9EDkIks:
 
   [Colección de APIS](https://raw.githubusercontent.com/chadsfatherlali/rest-api-ui/master/postman/api-rest.postman_collection.json) | [Entorno de APIS](https://raw.githubusercontent.com/chadsfatherlali/rest-api-ui/master/postman/api-rest.postman_environment.json)
 

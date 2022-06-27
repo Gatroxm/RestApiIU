@@ -13,11 +13,11 @@
   ### 1.-
   El formulario 1 consta de 2 inputs (name, lastName) y un botón "Siguiente" el cual debería enviar al usuario al paso 2.
   ### 2.-
-  El formulario 2 consta de 3 inputs (email, phoneNumber, cc) y 2 botones uno "Anterior" el cual le debe permitir al usuario regresar al formulario 1 en caso de querer modificar los valores ingresados en este, el botón "Enviar" debe permitir al usuario insertar en la base de datos los datos del usuario así generando un registro nuevo, una vez con la confirmación del API del registro nuevo el formulario debe limpiarse y volver al paso 1, listo para el ingreso de un nuevo usuario.
+  El formulario 2 consta de 3 inputs (email, phoneNumber, cc) y 2 botones uno "Anterior" el cual le debe permitir al usuario regresar al formulario 1 en caso de querer modificar los valores ingresados en este, el botón "Enviar" debe permitir al usuario insertar en la base de datos los datos del usuario así generando un registro nuevo, una vez con la confirmación de la API del registro nuevo el formulario debe limpiarse y volver al paso 1, listo para el ingreso de un nuevo usuario.
   ### 3.-
   Cuando un usuario nuevo es ingresado al consumir la API este se debe mostrar inmediatamente en la tabla en la parte derecha, no siendo válido forzar la recarga del navegador (window.location.reload).
   ### 4.-
-  En la tabla se debe añadir 2 botones a cada fila uno de edición el cual permitirá al usuario cambiar cualquier propiedad nombre, email, teléfono, etc..., el segundo botón de borrado debe eliminar el registro de la tabla, para ambos casos tanto en la edición y el borrado una vez obtenido la respuesta correcta del API los cambios se deben ver reflejados inmediatamente en la tabla, no siendo válido forzar la recarga del navegador (window.location.reload).
+  En la tabla se debe añadir 2 botones a cada fila uno de edición el cual permitirá al usuario cambiar cualquier propiedad nombre, email, teléfono, etc..., el segundo botón de borrado debe eliminar el registro de la tabla, para ambos casos tanto en la edición y el borrado una vez obtenido la respuesta correcta de la API los cambios se deben ver reflejados inmediatamente en la tabla, no siendo válido forzar la recarga del navegador (window.location.reload).
   ### 5.-
   La tabla debe llevar páginado.
   ## Puntos a tomar en cuenta
@@ -30,7 +30,7 @@
   ### 4.-
   Validación de los campos de entrada del formulario, se dará mucho valor buenas prácticas de validación de datos, caracteres no válidos, espacios en blanco, campos que solo admitan números, validación del formato del correo, etc...
   ### 5.-
-  Se adjunta la colección de API para que el candidato pueda explorar la API de usuarios mediante https://www.postman.com/ aplicación que la pueden usar gratuitamente, aquí se puede ver un video de como importar el entorno y la colección del API https://www.youtube.com/watch?v=cjwM9EDkIks:
+  Se adjunta la colección de API para que el candidato pueda explorar la API de usuarios mediante https://www.postman.com/ aplicación que la pueden usar gratuitamente, aquí se puede ver un video de como importar el entorno y la colección de la API https://www.youtube.com/watch?v=cjwM9EDkIks:
 
   [Colección de APIS](https://raw.githubusercontent.com/chadsfatherlali/rest-api-ui/master/postman/api-rest.postman_collection.json) | [Entorno de APIS](https://raw.githubusercontent.com/chadsfatherlali/rest-api-ui/master/postman/api-rest.postman_environment.json)
 

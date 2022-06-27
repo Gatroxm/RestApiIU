@@ -13,7 +13,7 @@ El presente ejercicio tiene como objetivo técnico poner en práctica un CRUD (l
 ### 1.-
 El formulario 1 consta de 2 inputs (name, lastName) y un botón "Siguiente" el cual debería enviar al usuario al paso 2.
 ### 2.-
-El formulario 2 consta de 3 inputs (email, phoneNumber, cc) y 2 botones uno "Anterior" el cual le debe permitir al usuario regresar al formulario en caso de querer modificar los valores ingresados en el formulario 1, el botón "Enviar" debe permitir al usuario insertar en la base de datos los datos del usuario así generando un registro nuevo, una vez con la confirmación del API del registro nuevo el formulario debe limpiarse y volver al paso 1, listo para el ingreso de un nuevo usuario.
+El formulario 2 consta de 3 inputs (email, phoneNumber, cc) y 2 botones uno "Anterior" el cual le debe permitir al usuario regresar al formulario 1 en caso de querer modificar los valores ingresados en este, el botón "Enviar" debe permitir al usuario insertar en la base de datos los datos del usuario así generando un registro nuevo, una vez con la confirmación del API del registro nuevo el formulario debe limpiarse y volver al paso 1, listo para el ingreso de un nuevo usuario.
 ### 3.-
 Cuando un usuario nuevo es ingresado al consumir la API este se debe mostrar inmediatamente en la tabla en la parte derecha, no siendo válido forzar la recarga del navegador (window.location.reload).
 ### 4.-

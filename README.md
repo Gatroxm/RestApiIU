@@ -30,7 +30,7 @@
   ### 4.-
   Validación de los campos de entrada del formulario, se dará mucho valor buenas prácticas de validación de datos, caracteres no válidos, espacios en blanco, campos que solo admitan números, validación del formato del correo, etc...
   ### 5.-
-  Se adjunta la colección de API para que el candidato pueda explorar la API de usuarios mediante https://www.postman.com/ aplicación que la pueden usar gratuitamente, aquí se puede ver un video de como importar el entorno y la colección de la API https://www.youtube.com/watch?v=cjwM9EDkIks:
+  Se adjunta la colección de la API para que el candidato pueda explorar la API de usuarios mediante https://www.postman.com/ aplicación que la pueden usar gratuitamente, aquí se puede ver un video de como importar el entorno y la colección de la API https://www.youtube.com/watch?v=cjwM9EDkIks:
 
   [Colección de APIS](https://raw.githubusercontent.com/chadsfatherlali/rest-api-ui/master/postman/api-rest.postman_collection.json) | [Entorno de APIS](https://raw.githubusercontent.com/chadsfatherlali/rest-api-ui/master/postman/api-rest.postman_environment.json)
 

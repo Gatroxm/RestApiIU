@@ -30,10 +30,9 @@ Indicadores, al ser un desarrollo front end en todo momento se debe indicar al u
 ### 4.-
 Validación de los campos de entrada del formularión se dara mucho valor buenas practicas de validación de datos, caracteres no válidos, espacios en blanco, campos que solo admitan números, validación del formato del correo, etc...
 ### 5.-
-Se adjunta las colección de API para que el candidato pueda explorar el API de usuarios mediante https://www.postman.com/ aplicación que la pueden usar gratuitamente.
+Se adjunta las colección de API para que el candidato pueda explorar el API de usuarios mediante https://www.postman.com/ aplicación que la pueden usar gratuitamente, aqui se pude ver un video de como importar el entorno y la colección del API https://www.youtube.com/watch?v=cjwM9EDkIks:
 
-[Colección de APIS](https://www.google.com)
-[Entorno de APIS](https://www.google.com)
+[Colección de APIS](https://raw.githubusercontent.com/chadsfatherlali/rest-api-ui/master/postman/api-rest.postman_collection.json) | [Entorno de APIS](https://raw.githubusercontent.com/chadsfatherlali/rest-api-ui/master/postman/api-rest.postman_environment.json)
 
 ### 6.-
 Cualquier duda sobre el ejercicio, por favor remitirla a Santiago Sánchez ssanchez@todo1.com para su aclaramiento.

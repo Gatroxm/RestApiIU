@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "50f6a7fe-8cb6-4837-bf02-7800db6d91e9",
+		"name": "api-rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13273244"
+	},
+	"item": [
+		{
+			"name": "HEALTH (Ruta para comprobar el estado del API)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}://{{host}}/health",
+					"protocol": "{{protocol}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"health"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET (Ruta para obtener todos los usuarios)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}://{{host}}/api/users?skip=0&limit=5",
+					"protocol": "{{protocol}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"users"
+					],
+					"query": [
+						{
+							"key": "skip",
+							"value": "0"
+						},
+						{
+							"key": "limit",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET ONE (Ruta para obtener un usuario)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}://{{host}}/api/users/62abb2a09dcb68a11273ff35",
+					"protocol": "{{protocol}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"62abb2a09dcb68a11273ff35"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST (Ruta para ingresar un nuevo usuario)",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Rosario\",\r\n    \"lastName\": \"Gómez\",\r\n    \"email\": \"rosario@ingesa.com\",\r\n    \"phoneNumber\": \"+539992637761\",\r\n    \"cc\": 1715029938\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{protocol}}://{{host}}/api/users",
+					"protocol": "{{protocol}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH (Ruta para modificar las propiedades del usaurio)",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"19813.santiago.sanchez@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{protocol}}://{{host}}/api/users/62a919da5dbb486a66da60e4",
+					"protocol": "{{protocol}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"62a919da5dbb486a66da60e4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE (Ruta para borrar un usuario)",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{protocol}}://{{host}}/api/users/623010e812d9a4142f58405f",
+					"protocol": "{{protocol}}",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"api",
+						"users",
+						"623010e812d9a4142f58405f"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

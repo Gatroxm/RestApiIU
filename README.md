@@ -9,7 +9,8 @@
 
   La entrega del ejercicio resuelto debe ser comunicado a su reclutador o en su defecto al correo ssanchez@todo1.com con el enlace de la rama pusheada con el siguiente formato todo1_nombre_apellido.
   ## Objetivo técnico
-  ![alt text](http://url/to/img.png)
+  ![test_tecnico](https://github.com/chadsfatherlali/rest-api-ui/blob/master/public/test.png)
+  
   El presente ejercicio tiene como objetivo técnico poner en práctica un CRUD (lectura, escritura, modificación y borrado) de datos, para lo cual se necesita resolver los siguientes enunciados:
   ### 1.-
   El formulario 1 consta de 2 inputs (name, lastName) y un botón "Siguiente" el cual debería enviar al usuario al paso 2.

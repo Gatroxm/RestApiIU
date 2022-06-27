@@ -24,7 +24,7 @@
   ### 1.-
   El ejercicio esta desarrollado con https://mui.com/, siendo este el framework UX usado por la empresa, por tanto es importante que la resolución del test sea con el uso de este framework y sus componentes, el candidato tiene la potestad de usar otras librerías que ayuden a completar el ejercicio siendo librerías para vallidación de campos, peticiones a servidor, manejo de estados de la aplicación, etc... 
   ### 2.-
-  La edición del usuario esta sujeta a la experiencia que el candidato le pueda dar siendo que se haga en el propio formulario o usando cualquier otra experiencia de usuario como puede ser un modal
+  La edición del usuario esta sujeta a la experiencia que el candidato le pueda dar, siendo que se haga en el propio formulario o usando cualquier otra experiencia de usuario como puede ser un modal, una nueva página, etc...
   ### 3.-
   Indicadores, al ser un desarrollo front end en todo momento se debe indicar al usuario el estado de sus acciones es decir si se consume un API mostrar un loader para indicar que se esta haciendo algo, si es correcto la petición hacia el API mostrar una alerta indicando que la operación ha sido satisfactoria, si en la petición el API ha sufrido un error se debe indicar un alerta de error mucho mejor si se indica el error dado.
   ### 4.-

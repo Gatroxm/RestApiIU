@@ -28,7 +28,6 @@ const App = () => {
   const [alerta, setAlerta] = useState(false)
   useEffect(() => {
     getUsers(0,5).then( resp => {
-      console.log('hola')
       if( resp.status === 200) {
         setUsersRender(resp.data);
         localStorage.setItem('registros', '5');
